@@ -13,25 +13,3 @@ Anotações das aulas 02 a 06 da disciplina de Programação Web (Prof. Me. Deiv
 | [04](aula-04-servidores-hospedagem-cms.md) | Servidores, hospedagem e CMS | Domínio, hospedagem, WordPress, temas e plugins |
 | [05](aula-05-frameworks-front-end.md) | Introdução a Frameworks Front-end | Framework x biblioteca, React, Node.js, NPM |
 | [06](aula-06-projetos-front-end.md) | Atividade com Projetos Front-end | Projetos em React, Angular e Vue, importação de templates |
-
-## Comandos de referência rápida
-
-```bash
-# Git
-git --version
-git tag 1.0.0
-git push origin 1.0.0
-
-# React
-npx create-react-app meu-projeto-react
-npm start
-
-# Angular
-npm install -g @angular/cli
-ng new meu-app-angular
-ng serve
-
-# Vue
-npm create vue@latest
-npm run dev
-```
