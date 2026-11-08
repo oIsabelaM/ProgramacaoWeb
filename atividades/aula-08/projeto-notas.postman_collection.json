@@ -1,0 +1,224 @@
+{
+  "info": {
+    "name": "Projeto Notas — API CRUD",
+    "description": "Documentação da API de notas da Atividade 08 de Programação Web.\n\nAPI em Express publicada no Render. As notas ficam salvas no arquivo data.json.\n\nObservação: no plano gratuito do Render, a primeira requisição pode levar cerca de 1 minuto.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://projeto-notas-4em4.onrender.com"
+    },
+    {
+      "key": "id",
+      "value": "1762632000000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Listar notas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/notes",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes"
+          ]
+        },
+        "description": "Retorna todas as notas cadastradas.\n\n**Respostas**\n- `200 OK`: lista de notas (vazia, se não houver nenhuma)."
+      },
+      "response": [
+        {
+          "name": "200 - Lista de notas",
+          "originalRequest": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/notes"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "[\n  {\n    \"id\": \"1762632000000\",\n    \"titulo\": \"Estudar Express\",\n    \"texto\": \"Revisar rotas e métodos HTTP\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "Criar nota",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/notes",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes"
+          ]
+        },
+        "description": "Cria uma nota. O `id` é gerado pela API.\n\n**Corpo**\n- `titulo` (texto)\n- `texto` (texto)\n\n**Respostas**\n- `200 OK`: nota criada.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Estudar Express\",\n  \"texto\": \"Revisar rotas e métodos HTTP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "name": "200 - Nota criada",
+          "originalRequest": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/notes"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"id\": \"1762632000000\",\n  \"titulo\": \"Estudar Express\",\n  \"texto\": \"Revisar rotas e métodos HTTP\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Editar nota",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/notes/{{id}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes",
+            "{{id}}"
+          ]
+        },
+        "description": "Altera o título e o texto da nota com o `id` informado.\n\nAntes de enviar, troque a variável `id` da coleção pelo id de uma nota existente.\n\n**Respostas**\n- `200 OK`: nota atualizada.\n- `404 Not Found`: nenhuma nota com esse id.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Estudar Express (revisado)\",\n  \"texto\": \"Rotas, métodos HTTP e middlewares\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "name": "200 - Nota atualizada",
+          "originalRequest": {
+            "method": "PUT",
+            "url": {
+              "raw": "{{baseUrl}}/api/notes/{{id}}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"id\": \"1762632000000\",\n  \"titulo\": \"Estudar Express (revisado)\",\n  \"texto\": \"Rotas, métodos HTTP e middlewares\"\n}"
+        },
+        {
+          "name": "404 - Nota não encontrada",
+          "originalRequest": {
+            "method": "PUT",
+            "url": {
+              "raw": "{{baseUrl}}/api/notes/{{id}}"
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"erro\": \"Nota não encontrada\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "Excluir nota",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/notes/{{id}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "notes",
+            "{{id}}"
+          ]
+        },
+        "description": "Remove a nota com o `id` informado.\n\n**Respostas**\n- `200 OK`: nota removida. A API também responde 200 quando o id não existe."
+      },
+      "response": [
+        {
+          "name": "200 - Nota removida",
+          "originalRequest": {
+            "method": "DELETE",
+            "url": {
+              "raw": "{{baseUrl}}/api/notes/{{id}}"
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"mensagem\": \"Nota removida\"\n}"
+        }
+      ]
+    }
+  ]
+}
