@@ -8,7 +8,6 @@ Repositório principal da disciplina de Programação Web. Reúne o resumo de ca
 | Instituição | FATEC Itapetininga |
 | Professor | Prof. Me. Deivison S. Takatu |
 | Ano | 2026 |
-| Integrantes | [preencher] |
 
 ## Sumário
 
