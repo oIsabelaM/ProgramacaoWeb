@@ -60,7 +60,7 @@ ng serve
 **Versões:** v0.1.0 a v0.3.0.
 
 ![Projeto Angular](prints/03-angular.png)
-
+   ![Projeto Angular (continuação)](prints/03-angular-2.png)
 ## 4. Projeto Vue — Clima
 
 **Criação:**

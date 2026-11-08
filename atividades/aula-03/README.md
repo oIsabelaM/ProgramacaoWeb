@@ -15,6 +15,7 @@
 **Forquinha 💕** é um jogo da forca feito com HTML, CSS e JavaScript puro. O jogador escolhe as letras num teclado na tela, recebe uma dica da palavra e tem 6 chances antes de a forca se completar.
 
 ![Tela do jogo](prints/01-tela-jogo.png)
+   ![Tela do jogo (continuação)](prints/01-tela-jogo-2.png)
 
 ## 2. Escolhas de design
 
