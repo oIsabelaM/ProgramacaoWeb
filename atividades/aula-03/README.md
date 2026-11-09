@@ -1,7 +1,7 @@
 # Atividade 03 — Versionamento e Deploy
 
 **Disciplina:** Programação Web — Prof. Me. Deivison S. Takatu
-**Integrantes:** [preencher]
+
 
 ## Links
 

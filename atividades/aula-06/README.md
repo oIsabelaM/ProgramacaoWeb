@@ -1,7 +1,7 @@
 # Atividade 06 — Projetos Front-end com React, Angular, Vue e Template
 
 **Disciplina:** Programação Web — Prof. Me. Deivison S. Takatu
-**Integrantes:** [preencher]
+
 
 ## Links
 

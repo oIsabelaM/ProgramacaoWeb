@@ -1,0 +1,17 @@
+@startsalt
+{+
+  {* Venda de Carros | Início | Carros | Financiamento | Sobre | Contato }
+  ==
+  { Marca: | ^Todas         ^ | Ano: | ^Todos ^ | Preço até: | "R$ 80.000  " | [Buscar] }
+  ==
+  {#
+    <&image> foto | <&image> foto | <&image> foto
+    Chevrolet Onix LT | Hyundai HB20 Sense | Renault Kwid Zen
+    2022 · 35.000 km | 2021 · 48.000 km | 2023 · 12.000 km
+    R$ 72.900 | R$ 65.500 | R$ 58.900
+    [Ver detalhes] | [Ver detalhes] | [Ver detalhes]
+  }
+  ==
+  { . | [< Anterior] | 1 · 2 · 3 | [Próxima >] | . }
+}
+@endsalt

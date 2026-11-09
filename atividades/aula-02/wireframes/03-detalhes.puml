@@ -1,0 +1,29 @@
+@startsalt
+{+
+  {* Venda de Carros | Início | Carros | Financiamento | Sobre | Contato }
+  ==
+  {
+    {+
+      .
+      <&image> Foto principal do veículo
+      .
+      <&chevron-left> 1 / 8 <&chevron-right>
+    } | {
+      Chevrolet Onix LT 2022
+      R$ 72.900
+      ..
+      Ano: 2022 | Km: 35.000
+      Câmbio: Manual | Cor: Prata
+      Combustível: Flex | Portas: 4
+      ..
+      [Simular financiamento]
+      [Falar no WhatsApp]
+    }
+  }
+  ==
+  Descrição do vendedor
+  {+
+    "Único dono, revisões em dia, manual e chave reserva.   "
+  }
+}
+@endsalt

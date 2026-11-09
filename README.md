@@ -65,10 +65,16 @@ ProgramacaoWeb/
 
 **O que foi pedido:** pesquisar aplicações parecidas com o tema do grupo, descrever a estrutura da aplicação, escrever três user stories, criar os wireframes das telas principais e montar um quadro Kanban no Trello.
 
+**O que foi feito:** com o tema **Sistema de Venda de Carros**, pesquisa de quatro sites parecidos (Webmotors, OLX, iCarros e Localiza Seminovos), mapa do site, três user stories, wireframes do catálogo, dos detalhes do veículo e do cadastro do vendedor, e quadro Kanban com as etapas concluídas e o backlog.
+
+**Ferramentas:** PlantUML (mapa do site e wireframes) e Trello.
+
+**Integrantes:** Isabela Oliveira, Maria Luiza Oliveira, Veronica das Dores e Rafael Rachid
+
 | Item | Link |
 |---|---|
-| Documento | [preencher] |
-| Quadro no Trello | [preencher] |
+| Documento | [atividades/aula-02](atividades/aula-02) |
+| Quadro no Trello | https://trello.com/b/tJQEytrj/sistema-de-venda-de-carros |
 
 ---
 
@@ -90,10 +96,12 @@ ProgramacaoWeb/
 
 **O que foi pedido:** criar conta em uma hospedagem, instalar um CMS, personalizar com temas e plugins e editar a página inicial.
 
+**O que foi feito:** site em WordPress para o tema **Venda de Carros**, com tema, plugins (formulário de contato e botão do WhatsApp) e página inicial personalizada. A primeira versão foi feita na Pantheon em agosto (site `aula-pw04`), que ficou bloqueada quando o período de teste gratuito da plataforma acabou. Por isso o site foi refeito na InfinityFree, que é gratuita e não expira.
+
 | Item | Link |
 |---|---|
 | Site | [preencher] |
-| Documento | [preencher] |
+| Documento | [atividades/aula-04](atividades/aula-04) |
 
 ---
 
@@ -151,7 +159,7 @@ ProgramacaoWeb/
 | Item | Link |
 |---|---|
 | Repositório da API | https://github.com/oIsabelaM/ativ-express |
-| Repositório do front-end | [preencher] |
+| Repositório do front-end | https://github.com/oIsabelaM/ativ-frontend |
 | API no Render | https://ativ-express.onrender.com/data-hora |
 | Front-end na Vercel | https://ativ-frontend.vercel.app/ |
 | Documento | [atividades/aula-07](atividades/aula-07) |
@@ -204,6 +212,8 @@ Plataforma que reúne os eventos culturais e educacionais de Itapetininga e regi
 
 **Tecnologias:** React, Vite, Node.js, Express, PostgreSQL (Neon), Vercel, Render.
 
+**Integrantes:** Isabela Oliveira, Maria Luiza Oliveira, Veronica das Dores e Rafael Rachid
+
 | Item | Link |
 |---|---|
 | Repositório | https://github.com/RafaelRachidd/Itape-plus |
@@ -217,5 +227,6 @@ Plataforma que reúne os eventos culturais e educacionais de Itapetininga e regi
 | v1.0.0 | Anotações das aulas 02 a 06 |
 | v1.2.0 | Anotações das aulas 07 e 08 |
 | v1.3.0 | README com índice das atividades e anotações da aula 09 |
+| v1.4.0 | Documentos das atividades 02 e 04 e repositório próprio do front da aula 07 |
 
 > As APIs publicadas no plano gratuito do Render podem levar cerca de 1 minuto para responder na primeira requisição.

@@ -1,7 +1,7 @@
 # Atividade 07 — API de Data e Hora com Express
 
 **Disciplina:** Programação Web — Prof. Me. Deivison S. Takatu
-**Integrantes:** [preencher]
+
 
 ## Links
 

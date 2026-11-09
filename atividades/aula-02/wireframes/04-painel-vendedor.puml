@@ -1,0 +1,19 @@
+@startsalt
+{+
+  {* Área do vendedor | Meus veículos | Cadastrar | Sair }
+  ==
+  Cadastrar veículo
+  {
+    Marca: | "Chevrolet           "
+    Modelo: | "Onix LT             "
+    Ano: | "2022 "
+    Preço (R$): | "72900      "
+    Quilometragem: | "35000      "
+    Câmbio: | ^Manual   ^
+    Fotos: | [Escolher arquivos]
+    Descrição: | "                    "
+  }
+  ..
+  { [Cancelar] | [Salvar veículo] }
+}
+@endsalt

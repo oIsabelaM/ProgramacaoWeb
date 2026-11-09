@@ -1,7 +1,7 @@
 # Atividade 08 — CRUD de Notas com Express, React e Postman
 
 **Disciplina:** Programação Web — Prof. Me. Deivison S. Takatu
-**Integrantes:** [preencher]
+
 
 ## Links
 
