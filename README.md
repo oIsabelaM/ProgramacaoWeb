@@ -96,11 +96,11 @@ ProgramacaoWeb/
 
 **O que foi pedido:** criar conta em uma hospedagem, instalar um CMS, personalizar com temas e plugins e editar a página inicial.
 
-**O que foi feito:** site em WordPress para o tema **Venda de Carros**, com tema, plugins (formulário de contato e botão do WhatsApp) e página inicial personalizada. A primeira versão foi feita na Pantheon em agosto (site `aula-pw04`), que ficou bloqueada quando o período de teste gratuito da plataforma acabou. Por isso o site foi refeito na InfinityFree, que é gratuita e não expira.
+**O que foi feito:** site em WordPress criado na Pantheon em agosto (site `aula-pw04`), com tema, plugins e página inicial personalizada. O site ficou bloqueado quando o período de teste gratuito da Pantheon acabou; os prints do painel estão no documento.
 
 | Item | Link |
 |---|---|
-| Site | [preencher] |
+| Site | Indisponível (bloqueado pela Pantheon após o fim do teste gratuito) |
 | Documento | [atividades/aula-04](atividades/aula-04) |
 
 ---
